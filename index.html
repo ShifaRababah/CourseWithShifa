@@ -97,7 +97,24 @@
                 background-color: #4CAF50;
                 color: white;
                 cursor: pointer;
+                
             }
+            .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color:#4CAF50;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #4CAF50;
+}
+
     </style>
 </head>
 <body>
@@ -113,9 +130,10 @@
 
     <div class="popup-overlay" id="popup-overlay">
         <div class="popup">
-            <h2>😉 تم تسجيلك بالكورس بنجاح</h2>
+            <h2>😉 تم تسجيل اهتمامك بالكورس بنجاح</h2>
             <br />
-            <button onclick="closePopup()">إغلاق</button>
+            <p> لنقدر نتواصل معك اضغط ع "تأكيد التسجيل" وعبيلنا الفورم</p>
+            <a class="button-link" href="https://docs.google.com/forms/d/1JtBOi-4t9eIxSdM4zn70KBLOEhRbvCG2OweJ5p0bduY/viewform?edit_requested=true" target="_blank"  onclick="closePopup()">تأكيد التسجيل</a>
         </div>
     </div>
 
